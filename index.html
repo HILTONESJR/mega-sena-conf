@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/js.js"></script>
+    <title>Confira o Resultado</title>
+  </head>
+  <body>
+    <div class="conteudo">
+        <div class="img-conteudo">
+            <h2>CONFIRA SEUS JOGOS DE FORMA RAPDA E EFICIENTE, BOA SORTE!!</h2>
+            <img src="./assets/img/download.jpg" alt="talão-da-mega-sena">
+        </div>
+
+    <div class="container">
+      <h1>Confira o resultado!!</h1>
+      <p>Insira as dezenas do resultado e do jogo separadas por vírgula:</p>
+      <input
+        type="text"
+        id="resultado"
+        placeholder="Resultado (ex: 20,25,35,39,48,58)"
+      />
+      <input
+        type="text"
+        id="jogo"
+        placeholder="Seu Jogo (ex: 11,24,35,39,48,59)"
+      />
+      <button onclick="verificarDezenas()">Verificar</button>
+      <div id="output"></div>
+    </div>
+</div>
+  </body>
+  
+</html>
